@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="amansillafelipe.guadalupe@alumnado.fundacionloyola.net">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Subida de archivos a un servidor</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="indexprueba.html">Subir imágenes</a></li>
+        <li><a href="#">Ver nombre de la imagen</a></li>
+        <li><a href="#">Ver imágenes</a></li>
+      </ul>
+    </nav>
+    <h2>Sube archivos desde tu dispositivo</h2>
+    <form action="subirarchivo.php" method="post" enctype="multipart/form-data">
+      <b>Campo de tipo texto</b>
+      <br>
+      <input type="text" name="cadenatexto" size="20" maxlength="100">
+      <input type="hidden" name="MAX_FILE_SIZE" value="100000">
+      <br>
+      <br>
+      <input type="file" name="userfile">
+      <br>
+      <br>
+      <input type="submit" name="Enviar">
+    </form>
+  </body>
+</html>

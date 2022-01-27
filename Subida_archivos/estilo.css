@@ -1,0 +1,33 @@
+body{
+  background-color: cyan;
+  font-size: 1.2em;
+  font-family:times;
+}
+
+nav{
+  background-color: blue;
+  padding: 10px;
+}
+ul{
+  display: block;
+  margin: 0 auto;
+
+}
+
+ul li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: steelblue;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+ul li:hover{
+  background-color: #A533FF;
+}
